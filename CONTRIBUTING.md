@@ -1,10 +1,5 @@
 # How to Contribute / 如何贡献代码
 
-[English](#English)  
-[简体中文](#简体中文)
-
-## English
-
 ### Pull Requests
 
 1. Fork the this repository
@@ -29,8 +24,6 @@ Please **do not** use words like "fix", "improve" only.
 If you want to add a new function for router callback, please follow the structure of the HomeController.  
 Please use the function from PSR-7 like `$request->getParsedBodyParam()`, `getParsedBodyParam()` as possible.
 
-## 简体中文
-
 ### Pull Request
 
 1. Fork 本项目
@@ -43,10 +36,6 @@ Please use the function from PSR-7 like `$request->getParsedBodyParam()`, `getPa
 
 所有的 Pull request 和 commit 都至少**必须**遵守 [PSR-2 标准](https://github.com/php-fig/fig-standards/blob/master/accepted/PSR-2-coding-style-guide.md)。  
 我们建议**最好**遵守 [PSR-12 标准](https://github.com/php-fig/fig-standards/blob/master/proposed/extended-coding-style-guide.md)。
-
-### Commit 消息
-
-Commit 消息必须简洁地包含你所有的修改。请不要仅使用「修复」、「改进」等字样。
 
 ### 规范
 
