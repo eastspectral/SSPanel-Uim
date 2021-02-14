@@ -155,5 +155,5 @@ SSPanel UIM 离不开所有 [贡献代码](https://github.com/Anankke/SSPanel-Ui
 
 #### laurieryayoi
 
-[dmit-美国香港服务器](https://www.dmit.io/aff.php?aff=912)
+- [dmit-美国香港服务器](https://www.dmit.io/aff.php?aff=912)
 
