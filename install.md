@@ -16,12 +16,11 @@ centos7、php7.1+、mysql5.6+、nginx^、python3+
 3、install BT
   _add website: php7.1+、mysql5.6+、nginx^
   _install ......
-  _display_error: close
-  _system、 penven、 proc_open、 proc_get_status: delete
+  _display_error: close 。 del_php_fun: system、 putenv、 proc_open、 proc_get_status: delete
   
 4、intall ssr
   cd site_directory/
-  git clone -b dev https://github.com/eastspectral/SSPanel-Uim.git tmp && mv ./tmp/* ./ && rm -rf tmp
+  git clone -b dev https://github.com/eastspectral/SSPanel-Uim.git tmp && mv ./tmp/* ./ && rm -rf tmp && git reset --hard
   php -r "copy('https://getcomposer.org/installer', 'composer-setup.php');" && php composer-setup.php && php composer.phar install && php -r "unlink('composer-setup.php');"
   cd ../ && chmod -R 755 site_directory/ && chown -R www:www site_directory/ && cd site_directory/ && chmod -R 777 storage
   cp ./config/.config.example.php ./config/.config.php && cp ./config/appprofile.example.php ./config/appprofile.php && vim ./config/.config.php
